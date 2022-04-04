@@ -1,0 +1,10 @@
+*-debug.log
+*-error.log
+*.md
+/dist
+/lib
+/package-lock.json
+node_modules
+/public
+/build
+**.md
