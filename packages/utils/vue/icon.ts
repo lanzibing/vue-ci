@@ -7,7 +7,7 @@ import {
 	Loading,
 	SuccessFilled,
 	WarningFilled
-} from '@tiger/icons-vue'
+} from '@element-plus/icons-vue'
 import { definePropType } from './props'
 import type { Component } from 'vue'
 

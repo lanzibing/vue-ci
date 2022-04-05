@@ -2,7 +2,7 @@
   "name": "@tiger/build",
   "private": true,
   "version": "0.0.1",
-  "description": "Build Toolchain for Element",
+  "description": "Build Toolchain for tiger",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

@@ -7,7 +7,7 @@ import commonjs from '@rollup/plugin-commonjs'
 import esbuild from 'rollup-plugin-esbuild'
 import glob from 'fast-glob'
 import { epRoot, excludeFiles, generateExternal, pkgRoot, writeBundles } from '../utils'
-import { ElementPlusAlias } from '../plugins/element-alias'
+import { ElementPlusAlias } from '../plugins/tiger-alias'
 import { buildConfigEntries, target } from '../build-info'
 
 import type { OutputOptions } from 'rollup'

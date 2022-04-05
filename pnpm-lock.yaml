@@ -9,7 +9,9 @@ importers:
       '@babel/preset-typescript': ^7.16.7
       '@commitlint/cli': ^16.2.3
       '@commitlint/config-conventional': ^16.2.1
+      '@element-plus/icons-vue': ^1.1.4
       '@popperjs/core': ^2.11.4
+      '@tiger/build': workspace:^0.0.1
       '@tiger/components': workspace:^0.0.5
       '@tiger/constants': workspace:*
       '@tiger/directives': workspace:^0.0.5
@@ -111,6 +113,8 @@ importers:
       '@babel/preset-typescript': 7.16.7_@babel+core@7.17.8
       '@commitlint/cli': 16.2.3
       '@commitlint/config-conventional': 16.2.1
+      '@element-plus/icons-vue': 1.1.4_vue@3.2.31
+      '@tiger/build': link:internal/build
       '@tiger/components': link:packages/components
       '@tiger/constants': link:packages/constants
       '@tiger/directives': link:packages/directives
@@ -2055,7 +2059,6 @@ packages:
       vue: ^3.2.0
     dependencies:
       vue: 3.2.31
-    dev: false
 
   /@emotion/cache/10.0.29:
     resolution: {integrity: sha512-fU2VtSVlHiF27empSbxi1O2JFdNWZO+2NFHfwO0pxgTep6Xa3uGb+3pVKfLww2l/IBGLNEZl5Xf/++A4wAYDYQ==}

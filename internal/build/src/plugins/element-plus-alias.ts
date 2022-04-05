@@ -8,7 +8,7 @@ export function ElementPlusAlias(): Plugin {
 	const bundleThemeChalk = `${EP_PKG}/${themeChalk}` as const
 
 	return {
-		name: 'element-alias-plugin',
+		name: 'tiger-alias-plugin',
 		resolveId(id) {
 			if (!id.startsWith(sourceThemeChalk)) return
 			return {

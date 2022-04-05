@@ -7,7 +7,7 @@ export const themeRoot = resolve(pkgRoot, 'theme-chalk')
 export const hookRoot = resolve(pkgRoot, 'hooks')
 export const localeRoot = resolve(pkgRoot, 'locale')
 export const directiveRoot = resolve(pkgRoot, 'directives')
-export const epRoot = resolve(pkgRoot, 'element')
+export const epRoot = resolve(pkgRoot, 'tiger')
 export const utilRoot = resolve(pkgRoot, 'utils')
 export const buildRoot = resolve(projRoot, 'internal', 'build')
 
@@ -17,8 +17,8 @@ export const vpRoot = resolve(docRoot, '.vitepress')
 
 /** `/dist` */
 export const buildOutput = resolve(projRoot, 'dist')
-/** `/dist/element` */
-export const epOutput = resolve(buildOutput, 'element')
+/** `/dist/tiger` */
+export const epOutput = resolve(buildOutput, 'tiger')
 
 export const projPackage = resolve(projRoot, 'package.json')
 export const compPackage = resolve(compRoot, 'package.json')

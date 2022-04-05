@@ -49,7 +49,6 @@
   },
   "dependencies": {
     "@ctrl/tinycolor": "^3.4.0",
-    "@tiger/icons-vue": "^1.1.4",
     "@floating-ui/dom": "^0.4.2",
     "@popperjs/core": "^2.11.4",
     "@vueuse/core": "^8.2.4",

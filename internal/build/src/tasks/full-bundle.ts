@@ -9,8 +9,8 @@ import esbuild from 'rollup-plugin-esbuild'
 import { parallel } from 'gulp'
 import glob from 'fast-glob'
 import { camelCase, upperFirst } from 'lodash'
-import { version } from '../../../../packages/element/version'
-import { ElementPlusAlias } from '../plugins/element-alias'
+import { version } from '../../../../packages/tiger/version'
+import { ElementPlusAlias } from '../plugins/tiger-alias'
 import {
 	epOutput,
 	epRoot,

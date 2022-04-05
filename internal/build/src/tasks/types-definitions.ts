@@ -42,7 +42,7 @@ export const generateTypesDefinitions = async () => {
 
 	const globAnyFile = '**/*.{js?(x),ts?(x),vue}'
 	const filePaths = excludeFiles(
-		await glob([globAnyFile, '!element/**/*'], {
+		await glob([globAnyFile, '!tiger/**/*'], {
 			cwd: pkgRoot,
 			absolute: true,
 			onlyFiles: true

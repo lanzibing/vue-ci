@@ -1,9 +1,7 @@
 <template>
 	<transition :name="ns.b('fade')">
 		<div v-show="visible" :class="[ns.b(), ns.m(type), ns.is('center', center), ns.is(effect)]" role="alert">
-			<el-icon v-if="showIcon && iconComponent" :class="[ns.e('icon'), isBigIcon]">
-				<component :is="iconComponent" />
-			</el-icon>
+			
 			<div :class="ns.e('content')">
 				<span v-if="title || $slots.title" :class="[ns.e('title'), isBoldTitle]">
 					<slot name="title">{{ title }}</slot>
@@ -17,9 +15,7 @@
 					<div v-if="closeText" :class="[ns.e('close-btn'), ns.is('customed')]" @click="close">
 						{{ closeText }}
 					</div>
-					<el-icon v-else :class="ns.e('close-btn')" @click="close">
-						<Close />
-					</el-icon>
+
 				</template>
 			</div>
 		</div>
@@ -27,7 +23,6 @@
 </template>
 <script lang="ts" setup>
 import { computed, ref, useSlots } from 'vue'
-import { ElIcon } from '@tiger/components/icon'
 import { TypeComponents, TypeComponentsMap } from '@tiger/utils'
 import { useNamespace } from '@tiger/hooks'
 import { alertEmits, alertProps } from './alert'
