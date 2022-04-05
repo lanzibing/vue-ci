@@ -15,10 +15,10 @@
 		"baseUrl": ".",
 		"types": ["webpack-env", "jest"],
 		"paths": {
-			"@/*": ["src/*"]
+			"@/*": ["web/*"]
 		},
 		"lib": ["esnext", "dom", "dom.iterable", "scripthost"]
 	},
-	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx"],
+	"include": ["web/**/*.ts", "web/**/*.tsx", "web/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx"],
 	"exclude": ["node_modules"]
 }
