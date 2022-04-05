@@ -21,3 +21,25 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Editor directories and files
+.idea
+
+# Package Manager
+node_modules
+.pnpm-debug.log*
+
+# System
+.DS_Store
+
+# Bundle
+dist
+coverage
+packages/element/version.ts
+
+# local env files
+*.local
+cypress/screenshots/*
+cypress/videos/*
+tmp
+

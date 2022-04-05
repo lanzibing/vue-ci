@@ -1,21 +1,19 @@
 {
-  "name": "vue-monorepo",
+  "name": "hcj-monorepo",
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "release": "standard-version",
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm -y",
     "clean": "pnpm run clean:dist",
     "clean:dist": "rimraf dist",
     "build-lib": "pnpm run start -C internal/build",
     "stub": "pnpm run -C internal/build stub",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "app:build": "pnpm run build -C application",
+    "app:serve": "pnpm run serve -C application",
+    "app:test": "pnpm run test:unit -C application",
+    "app:lint": "pnpm run lint -C application",
+    "app:version": "pnpm run version  -C application"
   },
   "dependencies": {
     "@element/components": "workspace:^0.0.5",
@@ -32,10 +30,6 @@
     "@babel/core": "^7.17.8",
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
-    "@storybook/addon-actions": "^6.4.20",
-    "@storybook/addon-essentials": "^6.4.20",
-    "@storybook/addon-links": "^6.4.20",
-    "@storybook/vue3": "^6.4.20",
     "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
@@ -74,6 +68,9 @@
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint --fix"
   },
   "config": {
     "commitizen": {

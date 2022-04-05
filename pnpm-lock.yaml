@@ -12,10 +12,6 @@ importers:
       '@element/directives': workspace:^0.0.5
       '@element/theme-chalk': workspace:^0.1.0
       '@element/utils': workspace:*
-      '@storybook/addon-actions': ^6.4.20
-      '@storybook/addon-essentials': ^6.4.20
-      '@storybook/addon-links': ^6.4.20
-      '@storybook/vue3': ^6.4.20
       '@types/jest': ^27.0.1
       '@typescript-eslint/eslint-plugin': ^5.17.0
       '@typescript-eslint/parser': ^5.17.0
@@ -69,10 +65,6 @@ importers:
       '@babel/core': 7.17.8
       '@commitlint/cli': 16.2.3
       '@commitlint/config-conventional': 16.2.1
-      '@storybook/addon-actions': 6.4.20
-      '@storybook/addon-essentials': 6.4.20_54408323561a141c9711612b54cf89a6
-      '@storybook/addon-links': 6.4.20
-      '@storybook/vue3': 6.4.20_11192d40e2d52594b9626f394b6633e9
       '@types/jest': 27.4.1
       '@typescript-eslint/eslint-plugin': 5.17.0_774b14a0587fa14f49b58eca49953a7f
       '@typescript-eslint/parser': 5.17.0_eslint@7.32.0+typescript@4.5.5
@@ -108,6 +100,32 @@ importers:
       ts-jest: 27.1.4_a2af5d4c149576b6f6da905941fd654e
       typescript: 4.5.5
       vue-loader: 16.8.3
+
+  application:
+    specifiers:
+      '@storybook/addon-actions': ^6.4.20
+      '@storybook/addon-essentials': ^6.4.20
+      '@storybook/addon-links': ^6.4.20
+      '@storybook/vue3': ^6.4.20
+      '@vue/cli-plugin-babel': ~5.0.0
+      '@vue/cli-plugin-router': ~5.0.0
+      '@vue/cli-plugin-typescript': ~5.0.0
+      '@vue/cli-plugin-unit-jest': ~5.0.0
+      '@vue/cli-plugin-vuex': ~5.0.0
+      '@vue/cli-service': ~5.0.0
+      standard-version: ^9.3.2
+    devDependencies:
+      '@storybook/addon-actions': 6.4.20
+      '@storybook/addon-essentials': 6.4.20_54408323561a141c9711612b54cf89a6
+      '@storybook/addon-links': 6.4.20
+      '@storybook/vue3': 6.4.20_11192d40e2d52594b9626f394b6633e9
+      '@vue/cli-plugin-babel': 5.0.4_e5fbd6707fd0968cca3d86a1b66a638d
+      '@vue/cli-plugin-router': 5.0.4_@vue+cli-service@5.0.4
+      '@vue/cli-plugin-typescript': 5.0.4_c28833e5cc67062f05adc44811c0596b
+      '@vue/cli-plugin-unit-jest': 5.0.4_65ae1665a331052a0ac1e6442c6879f9
+      '@vue/cli-plugin-vuex': 5.0.4_@vue+cli-service@5.0.4
+      '@vue/cli-service': 5.0.4_8db454db4489944b59fec542fe851310
+      standard-version: 9.3.2
 
   internal/build:
     specifiers:
@@ -10508,7 +10526,7 @@ packages:
     dev: false
 
   /fast-levenshtein/2.0.6:
-    resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
+    resolution: {integrity: sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=}
     dev: true
 
   /fastparse/1.1.2:
@@ -12299,7 +12317,7 @@ packages:
       is-plain-object: 2.0.4
 
   /is-extglob/2.1.1:
-    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
+    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=}
     engines: {node: '>=0.10.0'}
 
   /is-file-esm/1.0.0:
@@ -13843,7 +13861,7 @@ packages:
     dev: true
 
   /lodash.uniq/4.5.0:
-    resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
+    resolution: {integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=}
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -14841,7 +14859,7 @@ packages:
     dev: false
 
   /object-assign/4.1.1:
-    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=}
     engines: {node: '>=0.10.0'}
 
   /object-copy/0.1.0:
@@ -16557,7 +16575,7 @@ packages:
     resolution: {integrity: sha1-0/wRS6BplaRexok/SEzrHXj19HY=}
 
   /pseudomap/1.0.2:
-    resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
+    resolution: {integrity: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=}
 
   /psl/1.8.0:
     resolution: {integrity: sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==}
@@ -20740,7 +20758,7 @@ packages:
     engines: {node: '>=10'}
 
   /yallist/2.1.2:
-    resolution: {integrity: sha512-ncTzHV7NvsQZkYe1DW7cbDLm0YpzHmZF5r/iyP3ZnQtMiJ+pjzisCiMNI+Sj+xQF5pXhSHxSB3uDbsBTzY/c2A==}
+    resolution: {integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=}
 
   /yallist/3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}

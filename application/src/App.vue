@@ -2,19 +2,9 @@
 	<nav>
 		<router-link to="/">Home</router-link> |
 		<router-link to="/about">About</router-link>
-		<HelloWorld />
 	</nav>
 	<router-view />
 </template>
-
-<script>
-import { HelloWorld } from '@element/components'
-export default {
-	components: {
-		HelloWorld
-	}
-}
-</script>
 
 <style lang="scss">
 #app {

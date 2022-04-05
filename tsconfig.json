@@ -1,24 +1,21 @@
 {
+	"extends": "@vue/tsconfig/tsconfig.web.json",
 	"compilerOptions": {
-		"target": "esnext",
-		"module": "esnext",
-		"strict": true,
-		"allowJs": true,
-		"jsx": "preserve",
-		"moduleResolution": "node",
-		"skipLibCheck": true,
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		"forceConsistentCasingInFileNames": true,
-		"useDefineForClassFields": true,
-		"sourceMap": true,
-		"baseUrl": ".",
-		"types": ["webpack-env", "jest"],
-		"paths": {
-			"@/*": ["web/*"]
-		},
-		"lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+    "allowJs": true,
+    "module": "ES6",
+    "target": "ES2018",
+    "noImplicitAny": false,
+    "declaration": true,
+	"allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+	"moduleResolution":"Node",
+	"types": ["webpack-env", "jest", "unplugin-vue-define-options"],
+	"lib": ["esnext", "dom", "dom.iterable", "scripthost"]
 	},
-	"include": ["web/**/*.ts", "web/**/*.tsx", "web/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx"],
-	"exclude": ["node_modules"]
+	"references": [
+    { "path": "./tsconfig.jest.json" },
+    ],
+	"include": ["packages", "typings"],
+	"exclude": ["node_modules", "**/dist", "**/__tests__/**/*"],
 }
+
