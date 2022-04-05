@@ -10,6 +10,10 @@
     "release": "standard-version",
     "prepare": "husky install",
     "preinstall": "npx only-allow pnpm -y",
+    "clean": "pnpm run clean:dist",
+    "clean:dist": "rimraf dist",
+    "build-lib": "pnpm run start -C internal/build",
+    "stub": "pnpm run -C internal/build stub",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
