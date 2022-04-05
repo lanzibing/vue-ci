@@ -1,5 +1,5 @@
 {
-  "name": "@element/components",
+  "name": "@tiger/components",
   "version": "0.0.5",
   "description": "all components are settled here",
   "main": "index.ts",
@@ -10,5 +10,6 @@
   },
   "types": "index.d.ts",
   "jsdelivr": "index.js",
-  "sideEffects": false
+  "sideEffects": false,
+  "gitHead": "c69724230befa8fede0e6b9c37fb0b7e39fd7cdd"
 }

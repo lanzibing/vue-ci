@@ -1,5 +1,5 @@
 {
-  "name": "@element/build",
+  "name": "@tiger/build",
   "private": true,
   "version": "0.0.1",
   "description": "Build Toolchain for Element",

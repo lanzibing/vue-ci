@@ -212,7 +212,7 @@ module.exports = defineConfig({
 						position: 'before'
 					},
 					{
-						pattern: '@element/**',
+						pattern: '@tiger/**',
 						group: 'internal'
 					}
 				],

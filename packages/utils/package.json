@@ -1,12 +1,9 @@
 {
-  "name": "@element/utils",
+  "name": "@tiger/utils",
   "private": true,
   "license": "MIT",
   "main": "index.ts",
   "peerDependencies": {
     "vue": "^3.2.0"
-  },
-  "dependencies": {
-    "@element/utils": "workspace:*"
   }
 }

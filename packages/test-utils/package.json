@@ -1,0 +1,7 @@
+{
+  "name": "@tiger/test-utils",
+  "private": true,
+  "version": "0.0.5",
+  "license": "MIT",
+  "main": "dist/index.js"
+}

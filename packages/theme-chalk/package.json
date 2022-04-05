@@ -1,16 +1,17 @@
 {
-  "name": "@element/theme-chalk",
+  "name": "@tiger/theme-chalk",
   "version": "0.1.0",
   "description": "Element component chalk theme.",
   "keywords": [
     "vue-components",
+    "element-plus",
     "theme-chalk",
     "theme-light"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lanzibing/vue-lib.git"
+    "url": "git+https://github.com/element-plus/element-plus.git"
   },
   "author": "yi.shyang@ele.me",
   "main": "index.css",
@@ -22,11 +23,11 @@
     "build": "gulp --require sucrase/register/ts"
   },
   "bugs": {
-    "url": "https://github.com/lanzibing/vue-lib#issues"
+    "url": "https://github.com/element-plus/element-plus#issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/README.md",
   "devDependencies": {
-    "@element/build": "workspace:*",
+    "@tiger/build": "workspace:*",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-clean-css": "^4.3.0",
     "@types/gulp-rename": "^2.0.1",
@@ -35,5 +36,6 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0"
-  }
+  },
+  "gitHead": "c69724230befa8fede0e6b9c37fb0b7e39fd7cdd"
 }

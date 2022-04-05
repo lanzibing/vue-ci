@@ -31,7 +31,7 @@ export const generateTypesDefinitions = async () => {
 			outDir,
 			baseUrl: projRoot,
 			paths: {
-				'@element/*': ['packages/*']
+				'@tiger/*': ['packages/*']
 			},
 			preserveSymlinks: true,
 			types: [path.resolve(projRoot, 'typings/env'), 'unplugin-vue-define-options']
